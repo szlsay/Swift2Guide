@@ -15,7 +15,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
 //        self.simpleValues()
-        self.controlFlow()
+//        self.controlFlow()
+        functionsAndClosures()
+        
     }
     
     func simpleValues()
@@ -140,6 +142,99 @@ class ViewController: UIViewController {
             secondForLoop += i
         }
         print(secondForLoop)
+    }
+    
+    func functionsAndClosures()
+    {
+        func greet(name: String, day: String) -> String {
+            return "Hello \(name), today is \(day)."
+        }
+        print("\(__FUNCTION__) \(greet("Bob", day: "Tuesday"))")
+        
+        
+        func calculateStatistics(scores: [Int]) -> (min: Int, max: Int, sum: Int) {
+            var min = scores[0]
+            var max = scores[0]
+            var sum = 0
+            
+            for score in scores {
+                if score > max {
+                    max = score
+                } else if score < min {
+                    min = score
+                }
+                sum += score
+            }
+            
+            return (min, max, sum)
+        }
+        let statistics = calculateStatistics([5, 3, 100, 3, 9])
+        print(statistics.sum)
+        print(statistics.2)
+        
+        func sumOf(numbers: Int...) -> Int {
+            var sum = 0
+            for number in numbers {
+                sum += number
+            }
+            return sum
+        }
+        print("\(__FUNCTION__) \(sumOf())")
+        print("\(__FUNCTION__) \(sumOf(12, 597, 43))")
+        sumOf(42, 597, 12)
+        
+        func returnFifteen() -> Int {
+            var y = 10
+            func add() {
+                y += 5
+            }
+            add()
+            return y
+        }
+        print("\(__FUNCTION__) \(returnFifteen())")
+        
+        func makeIncrementer() -> (Int -> Int) {
+            func addOne(number: Int) -> Int {
+                return 1 + number
+            }
+            return addOne
+        }
+        let increment = makeIncrementer()
+        print("\(__FUNCTION__) \(increment(7))")
+        
+        
+        
+        
+        func hasAnyMatches(list: [Int], condition: Int -> Bool) -> Bool {
+            for item in list {
+                if condition(item) {
+                    return true
+                }
+            }
+            return false
+        }
+        func lessThanTen(number: Int) -> Bool {
+            return number < 10
+        }
+        
+        let numbers = [20, 19, 17, 12]
+        print("\(__FUNCTION__) \(hasAnyMatches(numbers, condition: lessThanTen))")
+        
+        let result = numbers.map({
+            (number: Int) -> Int in
+            let result = 3 * number
+            return result
+        })
+        
+        print("\(__FUNCTION__) \(result)")
+        
+        let mappedNumbers = numbers.map({ number in 3 * number })
+        print(mappedNumbers)
+        
+        let sortedNumbers = numbers.sort { $0 > $1 }
+        print(sortedNumbers)
+        
+
     }
 }
 
