@@ -9,13 +9,20 @@
 import UIKit
 import AEXML
 
+public func delay(delay:Double, closure:()->()) {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(delay * Double(NSEC_PER_SEC))),
+        dispatch_get_main_queue(), closure)
+}
+
 class ViewController: UIViewController {
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
+
         
+        delay(3) { print("\(__FUNCTION__) \("hhhhhhhhhhh")")}
         
         
         let path = NSBundle.mainBundle().pathForResource("test", ofType: "json")

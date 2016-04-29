@@ -16,10 +16,20 @@
 		7769B5BE1C756EF40022BEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7769B5BC1C756EF40022BEC1 /* Main.storyboard */; };
 		7769B5C01C756EF40022BEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7769B5BF1C756EF40022BEC1 /* Assets.xcassets */; };
 		7769B5C31C756EF40022BEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7769B5C11C756EF40022BEC1 /* LaunchScreen.storyboard */; };
+		777BB5CA1CD336C7006AE8B3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777BB5C91CD336C7006AE8B3 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		775096601CD2FEE70082517E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		777BB5C51CD336C7006AE8B3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -44,6 +54,8 @@
 		7769B5BF1C756EF40022BEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7769B5C21C756EF40022BEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7769B5C41C756EF40022BEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777BB5C71CD336C7006AE8B3 /* Swift闭包 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift闭包"; sourceTree = BUILT_PRODUCTS_DIR; };
+		777BB5C91CD336C7006AE8B3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BA9B801808347D16E1A06119 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +75,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		777BB5C41CD336C7006AE8B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +98,7 @@
 			children = (
 				7769B5B71C756EF40022BEC1 /* Swift2Guide */,
 				775096631CD2FEE70082517E /* Swift语法 */,
+				777BB5C81CD336C7006AE8B3 /* Swift闭包 */,
 				7769B5B61C756EF40022BEC1 /* Products */,
 				E28726C5856B469E90594464 /* Pods */,
 				FB169D9100BF5678C6746F90 /* Frameworks */,
@@ -90,6 +110,7 @@
 			children = (
 				7769B5B51C756EF40022BEC1 /* Swift2Guide.app */,
 				775096621CD2FEE70082517E /* Swift语法 */,
+				777BB5C71CD336C7006AE8B3 /* Swift闭包 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +128,14 @@
 				7769B5C41C756EF40022BEC1 /* Info.plist */,
 			);
 			path = Swift2Guide;
+			sourceTree = "<group>";
+		};
+		777BB5C81CD336C7006AE8B3 /* Swift闭包 */ = {
+			isa = PBXGroup;
+			children = (
+				777BB5C91CD336C7006AE8B3 /* main.swift */,
+			);
+			path = "Swift闭包";
 			sourceTree = "<group>";
 		};
 		E28726C5856B469E90594464 /* Pods */ = {
@@ -166,6 +195,23 @@
 			productReference = 7769B5B51C756EF40022BEC1 /* Swift2Guide.app */;
 			productType = "com.apple.product-type.application";
 		};
+		777BB5C61CD336C7006AE8B3 /* Swift闭包 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777BB5CD1CD336C7006AE8B3 /* Build configuration list for PBXNativeTarget "Swift闭包" */;
+			buildPhases = (
+				777BB5C31CD336C7006AE8B3 /* Sources */,
+				777BB5C41CD336C7006AE8B3 /* Frameworks */,
+				777BB5C51CD336C7006AE8B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift闭包";
+			productName = "Swift闭包";
+			productReference = 777BB5C71CD336C7006AE8B3 /* Swift闭包 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -182,6 +228,9 @@
 					7769B5B41C756EF40022BEC1 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = Z25J3BA353;
+					};
+					777BB5C61CD336C7006AE8B3 = {
+						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
 			};
@@ -200,6 +249,7 @@
 			targets = (
 				7769B5B41C756EF40022BEC1 /* Swift2Guide */,
 				775096611CD2FEE70082517E /* Swift语法 */,
+				777BB5C61CD336C7006AE8B3 /* Swift闭包 */,
 			);
 		};
 /* End PBXProject section */
@@ -282,6 +332,14 @@
 			files = (
 				7769B5BB1C756EF40022BEC1 /* ViewController.swift in Sources */,
 				7769B5B91C756EF40022BEC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777BB5C31CD336C7006AE8B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777BB5CA1CD336C7006AE8B3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +490,26 @@
 			};
 			name = Release;
 		};
+		777BB5CB1CD336C7006AE8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		777BB5CC1CD336C7006AE8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -461,6 +539,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		777BB5CD1CD336C7006AE8B3 /* Build configuration list for PBXNativeTarget "Swift闭包" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777BB5CB1CD336C7006AE8B3 /* Debug */,
+				777BB5CC1CD336C7006AE8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
