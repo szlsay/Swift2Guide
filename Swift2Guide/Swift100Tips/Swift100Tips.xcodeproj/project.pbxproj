@@ -21,6 +21,8 @@
 		7752AA0B1CF592FF003B52BA /* SelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA0A1CF592FF003B52BA /* SelectorController.swift */; };
 		7752AA0E1CF595AA003B52BA /* SequenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA0D1CF595AA003B52BA /* SequenceController.swift */; };
 		7752AA111CF5978E003B52BA /* TupleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA101CF5978E003B52BA /* TupleController.swift */; };
+		7752AA141CF59B0A003B52BA /* AutoclosureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA131CF59B0A003B52BA /* AutoclosureController.swift */; };
+		7752AA171CF5A055003B52BA /* OptionalChainingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA161CF5A055003B52BA /* OptionalChainingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		7752AA0A1CF592FF003B52BA /* SelectorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectorController.swift; sourceTree = "<group>"; };
 		7752AA0D1CF595AA003B52BA /* SequenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceController.swift; sourceTree = "<group>"; };
 		7752AA101CF5978E003B52BA /* TupleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TupleController.swift; sourceTree = "<group>"; };
+		7752AA131CF59B0A003B52BA /* AutoclosureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoclosureController.swift; sourceTree = "<group>"; };
+		7752AA161CF5A055003B52BA /* OptionalChainingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalChainingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				7752AA151CF5A039003B52BA /* 8Optional Chaining */,
+				7752AA121CF59AF7003B52BA /* 7autoclosure */,
 				7752AA0F1CF59775003B52BA /* 6多元组 (Tuple) */,
 				7752AA0C1CF59535003B52BA /* 5Sequence */,
 				7752AA091CF592E9003B52BA /* 4Selector */,
@@ -192,6 +198,22 @@
 				7752AA101CF5978E003B52BA /* TupleController.swift */,
 			);
 			name = "6多元组 (Tuple)";
+			sourceTree = "<group>";
+		};
+		7752AA121CF59AF7003B52BA /* 7autoclosure */ = {
+			isa = PBXGroup;
+			children = (
+				7752AA131CF59B0A003B52BA /* AutoclosureController.swift */,
+			);
+			name = 7autoclosure;
+			sourceTree = "<group>";
+		};
+		7752AA151CF5A039003B52BA /* 8Optional Chaining */ = {
+			isa = PBXGroup;
+			children = (
+				7752AA161CF5A055003B52BA /* OptionalChainingController.swift */,
+			);
+			name = "8Optional Chaining";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +352,7 @@
 			files = (
 				7752AA0E1CF595AA003B52BA /* SequenceController.swift in Sources */,
 				7752AA081CF591F0003B52BA /* ProtocolMutatingController.swift in Sources */,
+				7752AA141CF59B0A003B52BA /* AutoclosureController.swift in Sources */,
 				7752A9D21CF588B1003B52BA /* ViewController.swift in Sources */,
 				7752AA111CF5978E003B52BA /* TupleController.swift in Sources */,
 				7752A9D81CF588B1003B52BA /* Swift100Tips.xcdatamodeld in Sources */,
@@ -337,6 +360,7 @@
 				7752AA051CF5908D003B52BA /* StructMutableController.swift in Sources */,
 				7752AA0B1CF592FF003B52BA /* SelectorController.swift in Sources */,
 				7752A9D01CF588B1003B52BA /* AppDelegate.swift in Sources */,
+				7752AA171CF5A055003B52BA /* OptionalChainingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

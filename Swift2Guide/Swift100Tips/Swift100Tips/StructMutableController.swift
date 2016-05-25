@@ -2,7 +2,7 @@
 //  StructMutableController.swift
 //  Swift100Tips
 //
-//  Created by rkxt_ios on 16/5/25.
+//  Created by ST on 16/5/25.
 //  Copyright © 2016年 ST. All rights reserved.
 //
 
