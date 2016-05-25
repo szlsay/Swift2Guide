@@ -19,6 +19,8 @@
 		7752AA051CF5908D003B52BA /* StructMutableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA041CF5908D003B52BA /* StructMutableController.swift */; };
 		7752AA081CF591F0003B52BA /* ProtocolMutatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA071CF591F0003B52BA /* ProtocolMutatingController.swift */; };
 		7752AA0B1CF592FF003B52BA /* SelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA0A1CF592FF003B52BA /* SelectorController.swift */; };
+		7752AA0E1CF595AA003B52BA /* SequenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA0D1CF595AA003B52BA /* SequenceController.swift */; };
+		7752AA111CF5978E003B52BA /* TupleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA101CF5978E003B52BA /* TupleController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		7752AA041CF5908D003B52BA /* StructMutableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructMutableController.swift; sourceTree = "<group>"; };
 		7752AA071CF591F0003B52BA /* ProtocolMutatingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolMutatingController.swift; sourceTree = "<group>"; };
 		7752AA0A1CF592FF003B52BA /* SelectorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectorController.swift; sourceTree = "<group>"; };
+		7752AA0D1CF595AA003B52BA /* SequenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceController.swift; sourceTree = "<group>"; };
+		7752AA101CF5978E003B52BA /* TupleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TupleController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				7752AA0F1CF59775003B52BA /* 6多元组 (Tuple) */,
+				7752AA0C1CF59535003B52BA /* 5Sequence */,
 				7752AA091CF592E9003B52BA /* 4Selector */,
 				7752AA061CF591BA003B52BA /* 3将protocol的方法声明为mutating */,
 				7752AA031CF59060003B52BA /* 2StructMutable的方法 */,
@@ -170,6 +176,22 @@
 				7752AA0A1CF592FF003B52BA /* SelectorController.swift */,
 			);
 			name = 4Selector;
+			sourceTree = "<group>";
+		};
+		7752AA0C1CF59535003B52BA /* 5Sequence */ = {
+			isa = PBXGroup;
+			children = (
+				7752AA0D1CF595AA003B52BA /* SequenceController.swift */,
+			);
+			name = 5Sequence;
+			sourceTree = "<group>";
+		};
+		7752AA0F1CF59775003B52BA /* 6多元组 (Tuple) */ = {
+			isa = PBXGroup;
+			children = (
+				7752AA101CF5978E003B52BA /* TupleController.swift */,
+			);
+			name = "6多元组 (Tuple)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,8 +328,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7752AA0E1CF595AA003B52BA /* SequenceController.swift in Sources */,
 				7752AA081CF591F0003B52BA /* ProtocolMutatingController.swift in Sources */,
 				7752A9D21CF588B1003B52BA /* ViewController.swift in Sources */,
+				7752AA111CF5978E003B52BA /* TupleController.swift in Sources */,
 				7752A9D81CF588B1003B52BA /* Swift100Tips.xcdatamodeld in Sources */,
 				7752AA021CF58977003B52BA /* CurryingController.swift in Sources */,
 				7752AA051CF5908D003B52BA /* StructMutableController.swift in Sources */,
