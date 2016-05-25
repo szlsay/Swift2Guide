@@ -16,6 +16,7 @@
 		7752A9E81CF588B2003B52BA /* Swift100TipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752A9E71CF588B2003B52BA /* Swift100TipsTests.swift */; };
 		7752A9F31CF588B2003B52BA /* Swift100TipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752A9F21CF588B2003B52BA /* Swift100TipsUITests.swift */; };
 		7752AA021CF58977003B52BA /* CurryingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA011CF58977003B52BA /* CurryingController.swift */; };
+		7752AA051CF5908D003B52BA /* StructMutableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA041CF5908D003B52BA /* StructMutableController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7752A9F21CF588B2003B52BA /* Swift100TipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift100TipsUITests.swift; sourceTree = "<group>"; };
 		7752A9F41CF588B2003B52BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7752AA011CF58977003B52BA /* CurryingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurryingController.swift; sourceTree = "<group>"; };
+		7752AA041CF5908D003B52BA /* StructMutableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructMutableController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				7752AA031CF59060003B52BA /* 2StructMutable的方法 */,
 				7752AA001CF588FB003B52BA /* 1柯里化(Currying) */,
 				7752A9CF1CF588B1003B52BA /* AppDelegate.swift */,
 				7752A9D11CF588B1003B52BA /* ViewController.swift */,
@@ -137,6 +140,14 @@
 				7752AA011CF58977003B52BA /* CurryingController.swift */,
 			);
 			name = "1柯里化(Currying)";
+			sourceTree = "<group>";
+		};
+		7752AA031CF59060003B52BA /* 2StructMutable的方法 */ = {
+			isa = PBXGroup;
+			children = (
+				7752AA041CF5908D003B52BA /* StructMutableController.swift */,
+			);
+			name = "2StructMutable的方法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +287,7 @@
 				7752A9D21CF588B1003B52BA /* ViewController.swift in Sources */,
 				7752A9D81CF588B1003B52BA /* Swift100Tips.xcdatamodeld in Sources */,
 				7752AA021CF58977003B52BA /* CurryingController.swift in Sources */,
+				7752AA051CF5908D003B52BA /* StructMutableController.swift in Sources */,
 				7752A9D01CF588B1003B52BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
