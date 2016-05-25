@@ -23,6 +23,7 @@
 		7752AA111CF5978E003B52BA /* TupleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA101CF5978E003B52BA /* TupleController.swift */; };
 		7752AA141CF59B0A003B52BA /* AutoclosureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA131CF59B0A003B52BA /* AutoclosureController.swift */; };
 		7752AA171CF5A055003B52BA /* OptionalChainingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA161CF5A055003B52BA /* OptionalChainingController.swift */; };
+		7752AA1A1CF5A3ED003B52BA /* CaozuoFuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA191CF5A3ED003B52BA /* CaozuoFuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		7752AA101CF5978E003B52BA /* TupleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TupleController.swift; sourceTree = "<group>"; };
 		7752AA131CF59B0A003B52BA /* AutoclosureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoclosureController.swift; sourceTree = "<group>"; };
 		7752AA161CF5A055003B52BA /* OptionalChainingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalChainingController.swift; sourceTree = "<group>"; };
+		7752AA191CF5A3ED003B52BA /* CaozuoFuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaozuoFuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				7752AA181CF5A38A003B52BA /* 9操作符 */,
 				7752AA151CF5A039003B52BA /* 8Optional Chaining */,
 				7752AA121CF59AF7003B52BA /* 7autoclosure */,
 				7752AA0F1CF59775003B52BA /* 6多元组 (Tuple) */,
@@ -214,6 +217,14 @@
 				7752AA161CF5A055003B52BA /* OptionalChainingController.swift */,
 			);
 			name = "8Optional Chaining";
+			sourceTree = "<group>";
+		};
+		7752AA181CF5A38A003B52BA /* 9操作符 */ = {
+			isa = PBXGroup;
+			children = (
+				7752AA191CF5A3ED003B52BA /* CaozuoFuController.swift */,
+			);
+			name = "9操作符";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +368,7 @@
 				7752AA111CF5978E003B52BA /* TupleController.swift in Sources */,
 				7752A9D81CF588B1003B52BA /* Swift100Tips.xcdatamodeld in Sources */,
 				7752AA021CF58977003B52BA /* CurryingController.swift in Sources */,
+				7752AA1A1CF5A3ED003B52BA /* CaozuoFuController.swift in Sources */,
 				7752AA051CF5908D003B52BA /* StructMutableController.swift in Sources */,
 				7752AA0B1CF592FF003B52BA /* SelectorController.swift in Sources */,
 				7752A9D01CF588B1003B52BA /* AppDelegate.swift in Sources */,
