@@ -10,6 +10,7 @@
 		67BDDEE11CF6D23400E6808F /* NameSpaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEE01CF6D23400E6808F /* NameSpaceController.swift */; };
 		67BDDEE41CF6D4E600E6808F /* ShareManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEE31CF6D4E600E6808F /* ShareManagerController.swift */; };
 		67BDDEE71CF6D8CF00E6808F /* AnyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEE61CF6D8CF00E6808F /* AnyController.swift */; };
+		67BDDEEA1CF6DC8400E6808F /* RandomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEE91CF6DC8400E6808F /* RandomController.swift */; };
 		7725FE5E1CF6CC11003001C4 /* FunctionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725FE5D1CF6CC11003001C4 /* FunctionController.swift */; };
 		7752A9D01CF588B1003B52BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752A9CF1CF588B1003B52BA /* AppDelegate.swift */; };
 		7752A9D21CF588B1003B52BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752A9D11CF588B1003B52BA /* ViewController.swift */; };
@@ -56,6 +57,7 @@
 		67BDDEE01CF6D23400E6808F /* NameSpaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameSpaceController.swift; sourceTree = "<group>"; };
 		67BDDEE31CF6D4E600E6808F /* ShareManagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareManagerController.swift; sourceTree = "<group>"; };
 		67BDDEE61CF6D8CF00E6808F /* AnyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyController.swift; sourceTree = "<group>"; };
+		67BDDEE91CF6DC8400E6808F /* RandomController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomController.swift; sourceTree = "<group>"; };
 		7725FE5D1CF6CC11003001C4 /* FunctionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionController.swift; sourceTree = "<group>"; };
 		7752A9CC1CF588B1003B52BA /* Swift100Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift100Tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7752A9CF1CF588B1003B52BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		67BDDEE81CF6DBEF00E6808F /* 19随机数 */ = {
 			isa = PBXGroup;
 			children = (
+				67BDDEE91CF6DC8400E6808F /* RandomController.swift */,
 			);
 			name = "19随机数";
 			sourceTree = "<group>";
@@ -480,6 +483,7 @@
 				7725FE5E1CF6CC11003001C4 /* FunctionController.swift in Sources */,
 				777C30D61CF6898F0022B2DB /* FuncController.swift in Sources */,
 				7752AA051CF5908D003B52BA /* StructMutableController.swift in Sources */,
+				67BDDEEA1CF6DC8400E6808F /* RandomController.swift in Sources */,
 				7752AA0B1CF592FF003B52BA /* SelectorController.swift in Sources */,
 				7752A9D01CF588B1003B52BA /* AppDelegate.swift in Sources */,
 				777C30DF1CF697640022B2DB /* ZiMianController.swift in Sources */,
