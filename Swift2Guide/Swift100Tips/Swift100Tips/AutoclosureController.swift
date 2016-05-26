@@ -19,6 +19,8 @@ class AutoclosureController: UIViewController {
         
         logIfTrue1(2>1)
         
+        logIfTrue1(true)
+        
 //      在 Swift 中，有一个非常有用的操作符，可以用来快速地对 nil 进行条件判断，那就是 ??.这个操作符可以判断输入并在当左侧的值是非 nil 的 Optional 值时返回其 value，当左侧是 nil 时返回右侧的值
         var level : Int?
         var startLevel = 1

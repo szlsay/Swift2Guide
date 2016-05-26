@@ -23,6 +23,7 @@ class CaozuoFuController: UIViewController {
         let v5 = v1 +* v2
         print(v3 , v4, v5)
 
+        
     
         // Do any additional setup after loading the view.
     }
@@ -44,6 +45,29 @@ func +* (left: Vector2D, right: Vector2D) -> Double {
 infix operator +* {
     associativity none
     precedence 160
+}
+
+infix operator |- {
+    associativity none
+    precedence 161
+}
+
+func |-(left: Vector2D, right: Vector2D) -> Double {
+    return (left.x / right.x) + (left.y * right.y)
+}
+
+
+class Person {
+    var name: String?
+    var age: Int?
+}
+
+func +(one: Person, two: Person) ->  Person
+{
+    let person = Person()
+    person.name = one.name! + two.name!
+    person.age = one.age! + two.age!
+    return person
 }
 
 

@@ -24,6 +24,8 @@
 		7752AA141CF59B0A003B52BA /* AutoclosureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA131CF59B0A003B52BA /* AutoclosureController.swift */; };
 		7752AA171CF5A055003B52BA /* OptionalChainingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA161CF5A055003B52BA /* OptionalChainingController.swift */; };
 		7752AA1A1CF5A3ED003B52BA /* CaozuoFuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA191CF5A3ED003B52BA /* CaozuoFuController.swift */; };
+		777C30D61CF6898F0022B2DB /* FuncController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C30D51CF6898F0022B2DB /* FuncController.swift */; };
+		777C30D91CF68C1D0022B2DB /* FuncNamingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C30D81CF68C1D0022B2DB /* FuncNamingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		7752AA131CF59B0A003B52BA /* AutoclosureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoclosureController.swift; sourceTree = "<group>"; };
 		7752AA161CF5A055003B52BA /* OptionalChainingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalChainingController.swift; sourceTree = "<group>"; };
 		7752AA191CF5A3ED003B52BA /* CaozuoFuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaozuoFuController.swift; sourceTree = "<group>"; };
+		777C30D51CF6898F0022B2DB /* FuncController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncController.swift; sourceTree = "<group>"; };
+		777C30D81CF68C1D0022B2DB /* FuncNamingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncNamingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				777C30D71CF68C060022B2DB /* 11方法参数名称省略 {#func-naming} */,
+				7752AA1B1CF5A94E003B52BA /* 10func 的参数修饰 */,
 				7752AA181CF5A38A003B52BA /* 9操作符 */,
 				7752AA151CF5A039003B52BA /* 8Optional Chaining */,
 				7752AA121CF59AF7003B52BA /* 7autoclosure */,
@@ -225,6 +231,22 @@
 				7752AA191CF5A3ED003B52BA /* CaozuoFuController.swift */,
 			);
 			name = "9操作符";
+			sourceTree = "<group>";
+		};
+		7752AA1B1CF5A94E003B52BA /* 10func 的参数修饰 */ = {
+			isa = PBXGroup;
+			children = (
+				777C30D51CF6898F0022B2DB /* FuncController.swift */,
+			);
+			name = "10func 的参数修饰";
+			sourceTree = "<group>";
+		};
+		777C30D71CF68C060022B2DB /* 11方法参数名称省略 {#func-naming} */ = {
+			isa = PBXGroup;
+			children = (
+				777C30D81CF68C1D0022B2DB /* FuncNamingController.swift */,
+			);
+			name = "11方法参数名称省略 {#func-naming}";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,9 +388,11 @@
 				7752AA141CF59B0A003B52BA /* AutoclosureController.swift in Sources */,
 				7752A9D21CF588B1003B52BA /* ViewController.swift in Sources */,
 				7752AA111CF5978E003B52BA /* TupleController.swift in Sources */,
+				777C30D91CF68C1D0022B2DB /* FuncNamingController.swift in Sources */,
 				7752A9D81CF588B1003B52BA /* Swift100Tips.xcdatamodeld in Sources */,
 				7752AA021CF58977003B52BA /* CurryingController.swift in Sources */,
 				7752AA1A1CF5A3ED003B52BA /* CaozuoFuController.swift in Sources */,
+				777C30D61CF6898F0022B2DB /* FuncController.swift in Sources */,
 				7752AA051CF5908D003B52BA /* StructMutableController.swift in Sources */,
 				7752AA0B1CF592FF003B52BA /* SelectorController.swift in Sources */,
 				7752A9D01CF588B1003B52BA /* AppDelegate.swift in Sources */,
@@ -597,6 +621,7 @@
 				7752A9F91CF588B2003B52BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7752A9FA1CF588B2003B52BA /* Build configuration list for PBXNativeTarget "Swift100TipsTests" */ = {
 			isa = XCConfigurationList;
@@ -605,6 +630,7 @@
 				7752A9FC1CF588B2003B52BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7752A9FD1CF588B2003B52BA /* Build configuration list for PBXNativeTarget "Swift100TipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -613,6 +639,7 @@
 				7752A9FF1CF588B2003B52BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
