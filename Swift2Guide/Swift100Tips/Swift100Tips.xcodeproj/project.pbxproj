@@ -28,6 +28,7 @@
 		777C30D91CF68C1D0022B2DB /* FuncNamingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C30D81CF68C1D0022B2DB /* FuncNamingController.swift */; };
 		777C30DC1CF68F920022B2DB /* REPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C30DB1CF68F920022B2DB /* REPL.swift */; };
 		777C30DF1CF697640022B2DB /* ZiMianController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C30DE1CF697640022B2DB /* ZiMianController.swift */; };
+		777C30E21CF69DEC0022B2DB /* XiaBiaoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C30E11CF69DEC0022B2DB /* XiaBiaoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		777C30D81CF68C1D0022B2DB /* FuncNamingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncNamingController.swift; sourceTree = "<group>"; };
 		777C30DB1CF68F920022B2DB /* REPL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REPL.swift; sourceTree = "<group>"; };
 		777C30DE1CF697640022B2DB /* ZiMianController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZiMianController.swift; sourceTree = "<group>"; };
+		777C30E11CF69DEC0022B2DB /* XiaBiaoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XiaBiaoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				777C30E01CF69DD30022B2DB /* 14下标 */,
 				777C30DD1CF696F70022B2DB /* 13字面量转换 */,
 				777C30DA1CF68F0C0022B2DB /* 12Swift命令行工具 */,
 				777C30D71CF68C060022B2DB /* 11方法参数名称省略 {#func-naming} */,
@@ -269,6 +272,14 @@
 				777C30DE1CF697640022B2DB /* ZiMianController.swift */,
 			);
 			name = "13字面量转换";
+			sourceTree = "<group>";
+		};
+		777C30E01CF69DD30022B2DB /* 14下标 */ = {
+			isa = PBXGroup;
+			children = (
+				777C30E11CF69DEC0022B2DB /* XiaBiaoController.swift */,
+			);
+			name = "14下标";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,6 +432,7 @@
 				777C30DF1CF697640022B2DB /* ZiMianController.swift in Sources */,
 				777C30DC1CF68F920022B2DB /* REPL.swift in Sources */,
 				7752AA171CF5A055003B52BA /* OptionalChainingController.swift in Sources */,
+				777C30E21CF69DEC0022B2DB /* XiaBiaoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
