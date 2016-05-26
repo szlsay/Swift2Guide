@@ -26,6 +26,8 @@
 		7752AA1A1CF5A3ED003B52BA /* CaozuoFuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752AA191CF5A3ED003B52BA /* CaozuoFuController.swift */; };
 		777C30D61CF6898F0022B2DB /* FuncController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C30D51CF6898F0022B2DB /* FuncController.swift */; };
 		777C30D91CF68C1D0022B2DB /* FuncNamingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C30D81CF68C1D0022B2DB /* FuncNamingController.swift */; };
+		777C30DC1CF68F920022B2DB /* REPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C30DB1CF68F920022B2DB /* REPL.swift */; };
+		777C30DF1CF697640022B2DB /* ZiMianController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777C30DE1CF697640022B2DB /* ZiMianController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		7752AA191CF5A3ED003B52BA /* CaozuoFuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaozuoFuController.swift; sourceTree = "<group>"; };
 		777C30D51CF6898F0022B2DB /* FuncController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncController.swift; sourceTree = "<group>"; };
 		777C30D81CF68C1D0022B2DB /* FuncNamingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncNamingController.swift; sourceTree = "<group>"; };
+		777C30DB1CF68F920022B2DB /* REPL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REPL.swift; sourceTree = "<group>"; };
+		777C30DE1CF697640022B2DB /* ZiMianController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZiMianController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				777C30DD1CF696F70022B2DB /* 13字面量转换 */,
+				777C30DA1CF68F0C0022B2DB /* 12Swift命令行工具 */,
 				777C30D71CF68C060022B2DB /* 11方法参数名称省略 {#func-naming} */,
 				7752AA1B1CF5A94E003B52BA /* 10func 的参数修饰 */,
 				7752AA181CF5A38A003B52BA /* 9操作符 */,
@@ -247,6 +253,22 @@
 				777C30D81CF68C1D0022B2DB /* FuncNamingController.swift */,
 			);
 			name = "11方法参数名称省略 {#func-naming}";
+			sourceTree = "<group>";
+		};
+		777C30DA1CF68F0C0022B2DB /* 12Swift命令行工具 */ = {
+			isa = PBXGroup;
+			children = (
+				777C30DB1CF68F920022B2DB /* REPL.swift */,
+			);
+			name = "12Swift命令行工具";
+			sourceTree = "<group>";
+		};
+		777C30DD1CF696F70022B2DB /* 13字面量转换 */ = {
+			isa = PBXGroup;
+			children = (
+				777C30DE1CF697640022B2DB /* ZiMianController.swift */,
+			);
+			name = "13字面量转换";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +418,8 @@
 				7752AA051CF5908D003B52BA /* StructMutableController.swift in Sources */,
 				7752AA0B1CF592FF003B52BA /* SelectorController.swift in Sources */,
 				7752A9D01CF588B1003B52BA /* AppDelegate.swift in Sources */,
+				777C30DF1CF697640022B2DB /* ZiMianController.swift in Sources */,
+				777C30DC1CF68F920022B2DB /* REPL.swift in Sources */,
 				7752AA171CF5A055003B52BA /* OptionalChainingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
