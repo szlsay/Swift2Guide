@@ -14,7 +14,7 @@ class ConditionController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+
     @IBAction func someButtonPressed(sender: AnyObject) {
         #if FREE_VERSION // 免费版本, 在other swift flage 加上 -D FREE_VERSION
         #else
