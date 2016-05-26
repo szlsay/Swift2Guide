@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7725FE5E1CF6CC11003001C4 /* FunctionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725FE5D1CF6CC11003001C4 /* FunctionController.swift */; };
 		7752A9D01CF588B1003B52BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752A9CF1CF588B1003B52BA /* AppDelegate.swift */; };
 		7752A9D21CF588B1003B52BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752A9D11CF588B1003B52BA /* ViewController.swift */; };
 		7752A9D51CF588B1003B52BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7752A9D31CF588B1003B52BA /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7725FE5D1CF6CC11003001C4 /* FunctionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionController.swift; sourceTree = "<group>"; };
 		7752A9CC1CF588B1003B52BA /* Swift100Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift100Tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7752A9CF1CF588B1003B52BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7752A9D11CF588B1003B52BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				777C30E31CF6A3370022B2DB /* 15方法嵌套 */,
 				777C30E01CF69DD30022B2DB /* 14下标 */,
 				777C30DD1CF696F70022B2DB /* 13字面量转换 */,
 				777C30DA1CF68F0C0022B2DB /* 12Swift命令行工具 */,
@@ -282,6 +285,14 @@
 			name = "14下标";
 			sourceTree = "<group>";
 		};
+		777C30E31CF6A3370022B2DB /* 15方法嵌套 */ = {
+			isa = PBXGroup;
+			children = (
+				7725FE5D1CF6CC11003001C4 /* FunctionController.swift */,
+			);
+			name = "15方法嵌套";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -425,6 +436,7 @@
 				7752A9D81CF588B1003B52BA /* Swift100Tips.xcdatamodeld in Sources */,
 				7752AA021CF58977003B52BA /* CurryingController.swift in Sources */,
 				7752AA1A1CF5A3ED003B52BA /* CaozuoFuController.swift in Sources */,
+				7725FE5E1CF6CC11003001C4 /* FunctionController.swift in Sources */,
 				777C30D61CF6898F0022B2DB /* FuncController.swift in Sources */,
 				7752AA051CF5908D003B52BA /* StructMutableController.swift in Sources */,
 				7752AA0B1CF592FF003B52BA /* SelectorController.swift in Sources */,
