@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67B041361CF7DD0A0060E3C3 /* InitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B041351CF7DD0A0060E3C3 /* InitController.swift */; };
 		67BDDEE11CF6D23400E6808F /* NameSpaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEE01CF6D23400E6808F /* NameSpaceController.swift */; };
 		67BDDEE41CF6D4E600E6808F /* ShareManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEE31CF6D4E600E6808F /* ShareManagerController.swift */; };
 		67BDDEE71CF6D8CF00E6808F /* AnyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEE61CF6D8CF00E6808F /* AnyController.swift */; };
@@ -15,6 +16,7 @@
 		67BDDEF01CF6E22E00E6808F /* ConditionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEEF1CF6E22E00E6808F /* ConditionController.swift */; };
 		67BDDEF31CF6E88B00E6808F /* MarkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEF21CF6E88B00E6808F /* MarkController.swift */; };
 		67BDDEF61CF6E9C800E6808F /* MutableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEF51CF6E9C800E6808F /* MutableController.swift */; };
+		67BDDEF91CF6F61600E6808F /* UIApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEF81CF6F61600E6808F /* UIApplicationController.swift */; };
 		7725FE5E1CF6CC11003001C4 /* FunctionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725FE5D1CF6CC11003001C4 /* FunctionController.swift */; };
 		7752A9D01CF588B1003B52BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752A9CF1CF588B1003B52BA /* AppDelegate.swift */; };
 		7752A9D21CF588B1003B52BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752A9D11CF588B1003B52BA /* ViewController.swift */; };
@@ -58,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67B041351CF7DD0A0060E3C3 /* InitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitController.swift; sourceTree = "<group>"; };
 		67BDDEE01CF6D23400E6808F /* NameSpaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameSpaceController.swift; sourceTree = "<group>"; };
 		67BDDEE31CF6D4E600E6808F /* ShareManagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareManagerController.swift; sourceTree = "<group>"; };
 		67BDDEE61CF6D8CF00E6808F /* AnyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyController.swift; sourceTree = "<group>"; };
@@ -66,6 +69,7 @@
 		67BDDEEF1CF6E22E00E6808F /* ConditionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionController.swift; sourceTree = "<group>"; };
 		67BDDEF21CF6E88B00E6808F /* MarkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkController.swift; sourceTree = "<group>"; };
 		67BDDEF51CF6E9C800E6808F /* MutableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableController.swift; sourceTree = "<group>"; };
+		67BDDEF81CF6F61600E6808F /* UIApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationController.swift; sourceTree = "<group>"; };
 		7725FE5D1CF6CC11003001C4 /* FunctionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionController.swift; sourceTree = "<group>"; };
 		7752A9CC1CF588B1003B52BA /* Swift100Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift100Tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7752A9CF1CF588B1003B52BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +126,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67B041341CF7DCBD0060E3C3 /* 25初始化方法顺序 */ = {
+			isa = PBXGroup;
+			children = (
+				67B041351CF7DD0A0060E3C3 /* InitController.swift */,
+			);
+			name = "25初始化方法顺序";
+			sourceTree = "<group>";
+		};
 		67BDDEDF1CF6D17D00E6808F /* 16命名空间 */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +198,14 @@
 			name = "23可变参数函数";
 			sourceTree = "<group>";
 		};
+		67BDDEF71CF6F5F400E6808F /* 24UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				67BDDEF81CF6F61600E6808F /* UIApplicationController.swift */,
+			);
+			name = 24UIApplication;
+			sourceTree = "<group>";
+		};
 		7752A9C31CF588B1003B52BA = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +229,8 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				67B041341CF7DCBD0060E3C3 /* 25初始化方法顺序 */,
+				67BDDEF71CF6F5F400E6808F /* 24UIApplication */,
 				67BDDEF41CF6E91100E6808F /* 23可变参数函数 */,
 				67BDDEF11CF6E7EE00E6808F /* 22编译标记 */,
 				67BDDEEE1CF6E1F900E6808F /* 21条件编译 */,
@@ -518,6 +540,7 @@
 				67BDDEF61CF6E9C800E6808F /* MutableController.swift in Sources */,
 				7752AA0E1CF595AA003B52BA /* SequenceController.swift in Sources */,
 				7752AA081CF591F0003B52BA /* ProtocolMutatingController.swift in Sources */,
+				67B041361CF7DD0A0060E3C3 /* InitController.swift in Sources */,
 				67BDDEF31CF6E88B00E6808F /* MarkController.swift in Sources */,
 				7752AA141CF59B0A003B52BA /* AutoclosureController.swift in Sources */,
 				7752A9D21CF588B1003B52BA /* ViewController.swift in Sources */,
@@ -529,6 +552,7 @@
 				7725FE5E1CF6CC11003001C4 /* FunctionController.swift in Sources */,
 				777C30D61CF6898F0022B2DB /* FuncController.swift in Sources */,
 				7752AA051CF5908D003B52BA /* StructMutableController.swift in Sources */,
+				67BDDEF91CF6F61600E6808F /* UIApplicationController.swift in Sources */,
 				67BDDEEA1CF6DC8400E6808F /* RandomController.swift in Sources */,
 				7752AA0B1CF592FF003B52BA /* SelectorController.swift in Sources */,
 				7752A9D01CF588B1003B52BA /* AppDelegate.swift in Sources */,
