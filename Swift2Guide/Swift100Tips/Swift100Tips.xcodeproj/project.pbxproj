@@ -11,6 +11,7 @@
 		67B041391CF7DE830060E3C3 /* InitMarkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B041381CF7DE830060E3C3 /* InitMarkController.swift */; };
 		67B0413C1CF7E0130060E3C3 /* InitNilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0413B1CF7E0130060E3C3 /* InitNilController.swift */; };
 		67B0413F1CF7E2520060E3C3 /* ProtocolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0413E1CF7E2520060E3C3 /* ProtocolController.swift */; };
+		67B041421CF7E4E80060E3C3 /* StaticClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B041411CF7E4E80060E3C3 /* StaticClassController.swift */; };
 		67BDDEE11CF6D23400E6808F /* NameSpaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEE01CF6D23400E6808F /* NameSpaceController.swift */; };
 		67BDDEE41CF6D4E600E6808F /* ShareManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEE31CF6D4E600E6808F /* ShareManagerController.swift */; };
 		67BDDEE71CF6D8CF00E6808F /* AnyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEE61CF6D8CF00E6808F /* AnyController.swift */; };
@@ -67,6 +68,7 @@
 		67B041381CF7DE830060E3C3 /* InitMarkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitMarkController.swift; sourceTree = "<group>"; };
 		67B0413B1CF7E0130060E3C3 /* InitNilController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitNilController.swift; sourceTree = "<group>"; };
 		67B0413E1CF7E2520060E3C3 /* ProtocolController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolController.swift; sourceTree = "<group>"; };
+		67B041411CF7E4E80060E3C3 /* StaticClassController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticClassController.swift; sourceTree = "<group>"; };
 		67BDDEE01CF6D23400E6808F /* NameSpaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameSpaceController.swift; sourceTree = "<group>"; };
 		67BDDEE31CF6D4E600E6808F /* ShareManagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareManagerController.swift; sourceTree = "<group>"; };
 		67BDDEE61CF6D8CF00E6808F /* AnyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyController.swift; sourceTree = "<group>"; };
@@ -164,6 +166,14 @@
 			name = "28protocol 组合";
 			sourceTree = "<group>";
 		};
+		67B041401CF7E49A0060E3C3 /* 29static和class */ = {
+			isa = PBXGroup;
+			children = (
+				67B041411CF7E4E80060E3C3 /* StaticClassController.swift */,
+			);
+			name = "29static和class";
+			sourceTree = "<group>";
+		};
 		67BDDEDF1CF6D17D00E6808F /* 16命名空间 */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +269,7 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				67B041401CF7E49A0060E3C3 /* 29static和class */,
 				67B0413D1CF7E23E0060E3C3 /* 28protocol 组合 */,
 				67B0413A1CF7DFF60060E3C3 /* 27初始化返回 nil */,
 				67B041371CF7DE600060E3C3 /* 26初始化方法标示 */,
@@ -594,6 +605,7 @@
 				777C30DF1CF697640022B2DB /* ZiMianController.swift in Sources */,
 				67BDDEE71CF6D8CF00E6808F /* AnyController.swift in Sources */,
 				777C30DC1CF68F920022B2DB /* REPL.swift in Sources */,
+				67B041421CF7E4E80060E3C3 /* StaticClassController.swift in Sources */,
 				7752AA171CF5A055003B52BA /* OptionalChainingController.swift in Sources */,
 				67B0413F1CF7E2520060E3C3 /* ProtocolController.swift in Sources */,
 				67BDDEE41CF6D4E600E6808F /* ShareManagerController.swift in Sources */,
