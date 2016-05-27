@@ -23,6 +23,8 @@
 		67BDDEF61CF6E9C800E6808F /* MutableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEF51CF6E9C800E6808F /* MutableController.swift */; };
 		67BDDEF91CF6F61600E6808F /* UIApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEF81CF6F61600E6808F /* UIApplicationController.swift */; };
 		67FF5E281CF7F07F00AAF03B /* OptionalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E271CF7F07F00AAF03B /* OptionalController.swift */; };
+		67FF5E2B1CF7F27400AAF03B /* ElementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2A1CF7F27400AAF03B /* ElementController.swift */; };
+		67FF5E2E1CF7F3D500AAF03B /* WeakController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */; };
 		7725FE5E1CF6CC11003001C4 /* FunctionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7725FE5D1CF6CC11003001C4 /* FunctionController.swift */; };
 		7752A9D01CF588B1003B52BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752A9CF1CF588B1003B52BA /* AppDelegate.swift */; };
 		7752A9D21CF588B1003B52BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752A9D11CF588B1003B52BA /* ViewController.swift */; };
@@ -82,6 +84,8 @@
 		67BDDEF51CF6E9C800E6808F /* MutableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableController.swift; sourceTree = "<group>"; };
 		67BDDEF81CF6F61600E6808F /* UIApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationController.swift; sourceTree = "<group>"; };
 		67FF5E271CF7F07F00AAF03B /* OptionalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalController.swift; sourceTree = "<group>"; };
+		67FF5E2A1CF7F27400AAF03B /* ElementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementController.swift; sourceTree = "<group>"; };
+		67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakController.swift; sourceTree = "<group>"; };
 		7725FE5D1CF6CC11003001C4 /* FunctionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionController.swift; sourceTree = "<group>"; };
 		7752A9CC1CF588B1003B52BA /* Swift100Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift100Tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7752A9CF1CF588B1003B52BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -266,6 +270,22 @@
 			name = "31可选接口和接口扩展";
 			sourceTree = "<group>";
 		};
+		67FF5E291CF7F1F400AAF03B /* 32多类型和容器 */ = {
+			isa = PBXGroup;
+			children = (
+				67FF5E2A1CF7F27400AAF03B /* ElementController.swift */,
+			);
+			name = "32多类型和容器";
+			sourceTree = "<group>";
+		};
+		67FF5E2C1CF7F3BC00AAF03B /* 33内存管理weak和unowned */ = {
+			isa = PBXGroup;
+			children = (
+				67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */,
+			);
+			name = "33内存管理weak和unowned";
+			sourceTree = "<group>";
+		};
 		7752A9C31CF588B1003B52BA = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +309,8 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				67FF5E2C1CF7F3BC00AAF03B /* 33内存管理weak和unowned */,
+				67FF5E291CF7F1F400AAF03B /* 32多类型和容器 */,
 				67FF5E261CF7EFB200AAF03B /* 31可选接口和接口扩展 */,
 				67B041431CF7E6720060E3C3 /* 30@objc 和 dynamic */,
 				67B041401CF7E49A0060E3C3 /* 29static和class */,
@@ -606,6 +628,7 @@
 				67B041391CF7DE830060E3C3 /* InitMarkController.swift in Sources */,
 				67BDDEF61CF6E9C800E6808F /* MutableController.swift in Sources */,
 				7752AA0E1CF595AA003B52BA /* SequenceController.swift in Sources */,
+				67FF5E2E1CF7F3D500AAF03B /* WeakController.swift in Sources */,
 				7752AA081CF591F0003B52BA /* ProtocolMutatingController.swift in Sources */,
 				67B041361CF7DD0A0060E3C3 /* InitController.swift in Sources */,
 				67BDDEF31CF6E88B00E6808F /* MarkController.swift in Sources */,
@@ -613,6 +636,7 @@
 				7752A9D21CF588B1003B52BA /* ViewController.swift in Sources */,
 				7752AA111CF5978E003B52BA /* TupleController.swift in Sources */,
 				67B0413C1CF7E0130060E3C3 /* InitNilController.swift in Sources */,
+				67FF5E2B1CF7F27400AAF03B /* ElementController.swift in Sources */,
 				777C30D91CF68C1D0022B2DB /* FuncNamingController.swift in Sources */,
 				7752A9D81CF588B1003B52BA /* Swift100Tips.xcdatamodeld in Sources */,
 				7752AA021CF58977003B52BA /* CurryingController.swift in Sources */,
