@@ -42,6 +42,7 @@
 		67DBE2371CFC1AF3003A26A6 /* DynamicTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2361CFC1AF3003A26A6 /* DynamicTypeController.swift */; };
 		67DBE23A1CFC1D49003A26A6 /* ObserversController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2391CFC1D49003A26A6 /* ObserversController.swift */; };
 		67DBE23D1CFC20BD003A26A6 /* KVOController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE23C1CFC20BD003A26A6 /* KVOController.swift */; };
+		67DBE2401CFC2336003A26A6 /* ScopeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE23F1CFC2336003A26A6 /* ScopeController.swift */; };
 		67FF5E281CF7F07F00AAF03B /* OptionalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E271CF7F07F00AAF03B /* OptionalController.swift */; };
 		67FF5E2B1CF7F27400AAF03B /* ElementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2A1CF7F27400AAF03B /* ElementController.swift */; };
 		67FF5E2E1CF7F3D500AAF03B /* WeakController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */; };
@@ -123,6 +124,7 @@
 		67DBE2361CFC1AF3003A26A6 /* DynamicTypeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTypeController.swift; sourceTree = "<group>"; };
 		67DBE2391CFC1D49003A26A6 /* ObserversController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserversController.swift; sourceTree = "<group>"; };
 		67DBE23C1CFC20BD003A26A6 /* KVOController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVOController.swift; sourceTree = "<group>"; };
+		67DBE23F1CFC2336003A26A6 /* ScopeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScopeController.swift; sourceTree = "<group>"; };
 		67FF5E271CF7F07F00AAF03B /* OptionalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalController.swift; sourceTree = "<group>"; };
 		67FF5E2A1CF7F27400AAF03B /* ElementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementController.swift; sourceTree = "<group>"; };
 		67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakController.swift; sourceTree = "<group>"; };
@@ -462,6 +464,14 @@
 			name = 53KVO;
 			sourceTree = "<group>";
 		};
+		67DBE23E1CFC230C003A26A6 /* 54局部 scope */ = {
+			isa = PBXGroup;
+			children = (
+				67DBE23F1CFC2336003A26A6 /* ScopeController.swift */,
+			);
+			name = "54局部 scope";
+			sourceTree = "<group>";
+		};
 		67FF5E261CF7EFB200AAF03B /* 31可选接口和接口扩展 */ = {
 			isa = PBXGroup;
 			children = (
@@ -509,6 +519,7 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				67DBE23E1CFC230C003A26A6 /* 54局部 scope */,
 				67DBE23B1CFC20A8003A26A6 /* 53KVO */,
 				67DBE2381CFC1D32003A26A6 /* 52属性观察 */,
 				67DBE2351CFC1AB0003A26A6 /* 51动态类型和多方法 */,
@@ -900,6 +911,7 @@
 				67DBE2221CFBE76B003A26A6 /* GCDController.swift in Sources */,
 				777C30E21CF69DEC0022B2DB /* XiaBiaoController.swift in Sources */,
 				67BDDEF01CF6E22E00E6808F /* ConditionController.swift in Sources */,
+				67DBE2401CFC2336003A26A6 /* ScopeController.swift in Sources */,
 				67DBE2191CFBE001003A26A6 /* UnsafePointerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
