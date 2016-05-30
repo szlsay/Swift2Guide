@@ -48,6 +48,7 @@
 		67DBE2491CFC2A12003A26A6 /* HashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2481CFC2A12003A26A6 /* HashController.swift */; };
 		67DBE24C1CFC2D4E003A26A6 /* ErrorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE24B1CFC2D4E003A26A6 /* ErrorController.swift */; };
 		67DBE24F1CFC3830003A26A6 /* AssertionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE24E1CFC3830003A26A6 /* AssertionController.swift */; };
+		67DBE2521CFC3AB7003A26A6 /* FatalErrorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2511CFC3AB7003A26A6 /* FatalErrorController.swift */; };
 		67FF5E281CF7F07F00AAF03B /* OptionalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E271CF7F07F00AAF03B /* OptionalController.swift */; };
 		67FF5E2B1CF7F27400AAF03B /* ElementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2A1CF7F27400AAF03B /* ElementController.swift */; };
 		67FF5E2E1CF7F3D500AAF03B /* WeakController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */; };
@@ -135,6 +136,7 @@
 		67DBE2481CFC2A12003A26A6 /* HashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashController.swift; sourceTree = "<group>"; };
 		67DBE24B1CFC2D4E003A26A6 /* ErrorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorController.swift; sourceTree = "<group>"; };
 		67DBE24E1CFC3830003A26A6 /* AssertionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssertionController.swift; sourceTree = "<group>"; };
+		67DBE2511CFC3AB7003A26A6 /* FatalErrorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FatalErrorController.swift; sourceTree = "<group>"; };
 		67FF5E271CF7F07F00AAF03B /* OptionalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalController.swift; sourceTree = "<group>"; };
 		67FF5E2A1CF7F27400AAF03B /* ElementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementController.swift; sourceTree = "<group>"; };
 		67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakController.swift; sourceTree = "<group>"; };
@@ -522,6 +524,14 @@
 			name = "59断言";
 			sourceTree = "<group>";
 		};
+		67DBE2501CFC3AA4003A26A6 /* 60fatalError */ = {
+			isa = PBXGroup;
+			children = (
+				67DBE2511CFC3AB7003A26A6 /* FatalErrorController.swift */,
+			);
+			name = 60fatalError;
+			sourceTree = "<group>";
+		};
 		67FF5E261CF7EFB200AAF03B /* 31可选接口和接口扩展 */ = {
 			isa = PBXGroup;
 			children = (
@@ -569,6 +579,7 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				67DBE2501CFC3AA4003A26A6 /* 60fatalError */,
 				67DBE24D1CFC37F5003A26A6 /* 59断言 */,
 				67DBE24A1CFC2D2E003A26A6 /* 58错误和异常处理 */,
 				67DBE2471CFC29F9003A26A6 /* 57哈希 */,
@@ -951,6 +962,7 @@
 				777C30DF1CF697640022B2DB /* ZiMianController.swift in Sources */,
 				67DBE20D1CFBD51A003A26A6 /* MateController.swift in Sources */,
 				67DBE2311CFC16E4003A26A6 /* IntrospectionController.swift in Sources */,
+				67DBE2521CFC3AB7003A26A6 /* FatalErrorController.swift in Sources */,
 				67DBE2071CFBCFBD003A26A6 /* DefaultController.swift in Sources */,
 				67BDDEE71CF6D8CF00E6808F /* AnyController.swift in Sources */,
 				777C30DC1CF68F920022B2DB /* REPL.swift in Sources */,
