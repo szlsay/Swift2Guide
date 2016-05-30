@@ -22,6 +22,9 @@
 		67BDDEF31CF6E88B00E6808F /* MarkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEF21CF6E88B00E6808F /* MarkController.swift */; };
 		67BDDEF61CF6E9C800E6808F /* MutableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEF51CF6E9C800E6808F /* MutableController.swift */; };
 		67BDDEF91CF6F61600E6808F /* UIApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDDEF81CF6F61600E6808F /* UIApplicationController.swift */; };
+		67DBE2041CFBCDCE003A26A6 /* AutoreleasepoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2031CFBCDCE003A26A6 /* AutoreleasepoolController.swift */; };
+		67DBE2071CFBCFBD003A26A6 /* DefaultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2061CFBCFBD003A26A6 /* DefaultController.swift */; };
+		67DBE20A1CFBD217003A26A6 /* RegularController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2091CFBD217003A26A6 /* RegularController.swift */; };
 		67FF5E281CF7F07F00AAF03B /* OptionalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E271CF7F07F00AAF03B /* OptionalController.swift */; };
 		67FF5E2B1CF7F27400AAF03B /* ElementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2A1CF7F27400AAF03B /* ElementController.swift */; };
 		67FF5E2E1CF7F3D500AAF03B /* WeakController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */; };
@@ -83,6 +86,9 @@
 		67BDDEF21CF6E88B00E6808F /* MarkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkController.swift; sourceTree = "<group>"; };
 		67BDDEF51CF6E9C800E6808F /* MutableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableController.swift; sourceTree = "<group>"; };
 		67BDDEF81CF6F61600E6808F /* UIApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationController.swift; sourceTree = "<group>"; };
+		67DBE2031CFBCDCE003A26A6 /* AutoreleasepoolController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoreleasepoolController.swift; sourceTree = "<group>"; };
+		67DBE2061CFBCFBD003A26A6 /* DefaultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultController.swift; sourceTree = "<group>"; };
+		67DBE2091CFBD217003A26A6 /* RegularController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularController.swift; sourceTree = "<group>"; };
 		67FF5E271CF7F07F00AAF03B /* OptionalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalController.swift; sourceTree = "<group>"; };
 		67FF5E2A1CF7F27400AAF03B /* ElementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementController.swift; sourceTree = "<group>"; };
 		67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakController.swift; sourceTree = "<group>"; };
@@ -262,6 +268,30 @@
 			name = 24UIApplication;
 			sourceTree = "<group>";
 		};
+		67DBE2021CFBCDAF003A26A6 /* 34Autoreleasepool */ = {
+			isa = PBXGroup;
+			children = (
+				67DBE2031CFBCDCE003A26A6 /* AutoreleasepoolController.swift */,
+			);
+			name = 34Autoreleasepool;
+			sourceTree = "<group>";
+		};
+		67DBE2051CFBCF9C003A26A6 /* 35Default参数 */ = {
+			isa = PBXGroup;
+			children = (
+				67DBE2061CFBCFBD003A26A6 /* DefaultController.swift */,
+			);
+			name = "35Default参数";
+			sourceTree = "<group>";
+		};
+		67DBE2081CFBD1FC003A26A6 /* 36正则表达式 */ = {
+			isa = PBXGroup;
+			children = (
+				67DBE2091CFBD217003A26A6 /* RegularController.swift */,
+			);
+			name = "36正则表达式";
+			sourceTree = "<group>";
+		};
 		67FF5E261CF7EFB200AAF03B /* 31可选接口和接口扩展 */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +339,9 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				67DBE2081CFBD1FC003A26A6 /* 36正则表达式 */,
+				67DBE2051CFBCF9C003A26A6 /* 35Default参数 */,
+				67DBE2021CFBCDAF003A26A6 /* 34Autoreleasepool */,
 				67FF5E2C1CF7F3BC00AAF03B /* 33内存管理weak和unowned */,
 				67FF5E291CF7F1F400AAF03B /* 32多类型和容器 */,
 				67FF5E261CF7EFB200AAF03B /* 31可选接口和接口扩展 */,
@@ -637,6 +670,7 @@
 				7752AA111CF5978E003B52BA /* TupleController.swift in Sources */,
 				67B0413C1CF7E0130060E3C3 /* InitNilController.swift in Sources */,
 				67FF5E2B1CF7F27400AAF03B /* ElementController.swift in Sources */,
+				67DBE20A1CFBD217003A26A6 /* RegularController.swift in Sources */,
 				777C30D91CF68C1D0022B2DB /* FuncNamingController.swift in Sources */,
 				7752A9D81CF588B1003B52BA /* Swift100Tips.xcdatamodeld in Sources */,
 				7752AA021CF58977003B52BA /* CurryingController.swift in Sources */,
@@ -650,9 +684,11 @@
 				7752A9D01CF588B1003B52BA /* AppDelegate.swift in Sources */,
 				67B041451CF7E68B0060E3C3 /* ObjcController.swift in Sources */,
 				777C30DF1CF697640022B2DB /* ZiMianController.swift in Sources */,
+				67DBE2071CFBCFBD003A26A6 /* DefaultController.swift in Sources */,
 				67BDDEE71CF6D8CF00E6808F /* AnyController.swift in Sources */,
 				777C30DC1CF68F920022B2DB /* REPL.swift in Sources */,
 				67B041421CF7E4E80060E3C3 /* StaticClassController.swift in Sources */,
+				67DBE2041CFBCDCE003A26A6 /* AutoreleasepoolController.swift in Sources */,
 				7752AA171CF5A055003B52BA /* OptionalChainingController.swift in Sources */,
 				67B0413F1CF7E2520060E3C3 /* ProtocolController.swift in Sources */,
 				67BDDEE41CF6D4E600E6808F /* ShareManagerController.swift in Sources */,
