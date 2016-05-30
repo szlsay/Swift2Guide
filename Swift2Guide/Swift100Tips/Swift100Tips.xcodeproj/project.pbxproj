@@ -34,6 +34,7 @@
 		67DBE21F1CFBE52D003A26A6 /* COpaquePointerCconventionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE21E1CFBE52D003A26A6 /* COpaquePointerCconventionController.swift */; };
 		67DBE2221CFBE76B003A26A6 /* GCDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2211CFBE76B003A26A6 /* GCDController.swift */; };
 		67DBE2251CFBE9EF003A26A6 /* RangeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2241CFBE9EF003A26A6 /* RangeController.swift */; };
+		67DBE2281CFBECCC003A26A6 /* GetSelfController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2271CFBECCC003A26A6 /* GetSelfController.swift */; };
 		67FF5E281CF7F07F00AAF03B /* OptionalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E271CF7F07F00AAF03B /* OptionalController.swift */; };
 		67FF5E2B1CF7F27400AAF03B /* ElementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2A1CF7F27400AAF03B /* ElementController.swift */; };
 		67FF5E2E1CF7F3D500AAF03B /* WeakController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */; };
@@ -107,6 +108,7 @@
 		67DBE21E1CFBE52D003A26A6 /* COpaquePointerCconventionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COpaquePointerCconventionController.swift; sourceTree = "<group>"; };
 		67DBE2211CFBE76B003A26A6 /* GCDController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDController.swift; sourceTree = "<group>"; };
 		67DBE2241CFBE9EF003A26A6 /* RangeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeController.swift; sourceTree = "<group>"; };
+		67DBE2271CFBECCC003A26A6 /* GetSelfController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSelfController.swift; sourceTree = "<group>"; };
 		67FF5E271CF7F07F00AAF03B /* OptionalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalController.swift; sourceTree = "<group>"; };
 		67FF5E2A1CF7F27400AAF03B /* ElementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementController.swift; sourceTree = "<group>"; };
 		67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakController.swift; sourceTree = "<group>"; };
@@ -382,6 +384,21 @@
 			name = "45... 和 ..<";
 			sourceTree = "<group>";
 		};
+		67DBE2261CFBEC1D003A26A6 /* 46获取对象类型 */ = {
+			isa = PBXGroup;
+			children = (
+				67DBE2271CFBECCC003A26A6 /* GetSelfController.swift */,
+			);
+			name = "46获取对象类型";
+			sourceTree = "<group>";
+		};
+		67DBE2291CFBEF62003A26A6 /* 47AnyClass，元类型和 .self */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "47AnyClass，元类型和 .self";
+			sourceTree = "<group>";
+		};
 		67FF5E261CF7EFB200AAF03B /* 31可选接口和接口扩展 */ = {
 			isa = PBXGroup;
 			children = (
@@ -429,6 +446,8 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				67DBE2291CFBEF62003A26A6 /* 47AnyClass，元类型和 .self */,
+				67DBE2261CFBEC1D003A26A6 /* 46获取对象类型 */,
 				67DBE2231CFBE9C3003A26A6 /* 45... 和 ..< */,
 				67DBE2201CFBE75C003A26A6 /* 44GCD 和延时调用 */,
 				67DBE21D1CFBE50B003A26A6 /* 43COpaquePointer 和 C convention */,
@@ -798,6 +817,7 @@
 				67B0413F1CF7E2520060E3C3 /* ProtocolController.swift in Sources */,
 				67BDDEE41CF6D4E600E6808F /* ShareManagerController.swift in Sources */,
 				67BDDEED1CF6DEA300E6808F /* TypealiasController.swift in Sources */,
+				67DBE2281CFBECCC003A26A6 /* GetSelfController.swift in Sources */,
 				67BDDEE11CF6D23400E6808F /* NameSpaceController.swift in Sources */,
 				67DBE2131CFBDB15003A26A6 /* FoundationController.swift in Sources */,
 				67FF5E281CF7F07F00AAF03B /* OptionalController.swift in Sources */,
