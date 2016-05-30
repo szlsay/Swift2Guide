@@ -35,6 +35,7 @@
 		67DBE2221CFBE76B003A26A6 /* GCDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2211CFBE76B003A26A6 /* GCDController.swift */; };
 		67DBE2251CFBE9EF003A26A6 /* RangeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2241CFBE9EF003A26A6 /* RangeController.swift */; };
 		67DBE2281CFBECCC003A26A6 /* GetSelfController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2271CFBECCC003A26A6 /* GetSelfController.swift */; };
+		67DBE22B1CFBEFC6003A26A6 /* AnyClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE22A1CFBEFC6003A26A6 /* AnyClassController.swift */; };
 		67FF5E281CF7F07F00AAF03B /* OptionalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E271CF7F07F00AAF03B /* OptionalController.swift */; };
 		67FF5E2B1CF7F27400AAF03B /* ElementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2A1CF7F27400AAF03B /* ElementController.swift */; };
 		67FF5E2E1CF7F3D500AAF03B /* WeakController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */; };
@@ -109,6 +110,7 @@
 		67DBE2211CFBE76B003A26A6 /* GCDController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDController.swift; sourceTree = "<group>"; };
 		67DBE2241CFBE9EF003A26A6 /* RangeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeController.swift; sourceTree = "<group>"; };
 		67DBE2271CFBECCC003A26A6 /* GetSelfController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSelfController.swift; sourceTree = "<group>"; };
+		67DBE22A1CFBEFC6003A26A6 /* AnyClassController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyClassController.swift; sourceTree = "<group>"; };
 		67FF5E271CF7F07F00AAF03B /* OptionalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalController.swift; sourceTree = "<group>"; };
 		67FF5E2A1CF7F27400AAF03B /* ElementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementController.swift; sourceTree = "<group>"; };
 		67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakController.swift; sourceTree = "<group>"; };
@@ -395,6 +397,7 @@
 		67DBE2291CFBEF62003A26A6 /* 47AnyClass，元类型和 .self */ = {
 			isa = PBXGroup;
 			children = (
+				67DBE22A1CFBEFC6003A26A6 /* AnyClassController.swift */,
 			);
 			name = "47AnyClass，元类型和 .self";
 			sourceTree = "<group>";
@@ -801,6 +804,7 @@
 				67DBE21C1CFBE2FE003A26A6 /* CController.swift in Sources */,
 				7752AA051CF5908D003B52BA /* StructMutableController.swift in Sources */,
 				67BDDEF91CF6F61600E6808F /* UIApplicationController.swift in Sources */,
+				67DBE22B1CFBEFC6003A26A6 /* AnyClassController.swift in Sources */,
 				67BDDEEA1CF6DC8400E6808F /* RandomController.swift in Sources */,
 				7752AA0B1CF592FF003B52BA /* SelectorController.swift in Sources */,
 				7752A9D01CF588B1003B52BA /* AppDelegate.swift in Sources */,
