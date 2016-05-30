@@ -36,6 +36,8 @@
 		67DBE2251CFBE9EF003A26A6 /* RangeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2241CFBE9EF003A26A6 /* RangeController.swift */; };
 		67DBE2281CFBECCC003A26A6 /* GetSelfController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2271CFBECCC003A26A6 /* GetSelfController.swift */; };
 		67DBE22B1CFBEFC6003A26A6 /* AnyClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE22A1CFBEFC6003A26A6 /* AnyClassController.swift */; };
+		67DBE22E1CFC141A003A26A6 /* SelftInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE22D1CFC141A003A26A6 /* SelftInterfaceController.swift */; };
+		67DBE2311CFC16E4003A26A6 /* IntrospectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2301CFC16E4003A26A6 /* IntrospectionController.swift */; };
 		67FF5E281CF7F07F00AAF03B /* OptionalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E271CF7F07F00AAF03B /* OptionalController.swift */; };
 		67FF5E2B1CF7F27400AAF03B /* ElementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2A1CF7F27400AAF03B /* ElementController.swift */; };
 		67FF5E2E1CF7F3D500AAF03B /* WeakController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */; };
@@ -111,6 +113,8 @@
 		67DBE2241CFBE9EF003A26A6 /* RangeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeController.swift; sourceTree = "<group>"; };
 		67DBE2271CFBECCC003A26A6 /* GetSelfController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSelfController.swift; sourceTree = "<group>"; };
 		67DBE22A1CFBEFC6003A26A6 /* AnyClassController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyClassController.swift; sourceTree = "<group>"; };
+		67DBE22D1CFC141A003A26A6 /* SelftInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelftInterfaceController.swift; sourceTree = "<group>"; };
+		67DBE2301CFC16E4003A26A6 /* IntrospectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntrospectionController.swift; sourceTree = "<group>"; };
 		67FF5E271CF7F07F00AAF03B /* OptionalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalController.swift; sourceTree = "<group>"; };
 		67FF5E2A1CF7F27400AAF03B /* ElementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementController.swift; sourceTree = "<group>"; };
 		67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakController.swift; sourceTree = "<group>"; };
@@ -402,6 +406,22 @@
 			name = "47AnyClass，元类型和 .self";
 			sourceTree = "<group>";
 		};
+		67DBE22C1CFC13D8003A26A6 /* 48接口和类方法中的 Self */ = {
+			isa = PBXGroup;
+			children = (
+				67DBE22D1CFC141A003A26A6 /* SelftInterfaceController.swift */,
+			);
+			name = "48接口和类方法中的 Self";
+			sourceTree = "<group>";
+		};
+		67DBE22F1CFC16CF003A26A6 /* 49自省 */ = {
+			isa = PBXGroup;
+			children = (
+				67DBE2301CFC16E4003A26A6 /* IntrospectionController.swift */,
+			);
+			name = "49自省";
+			sourceTree = "<group>";
+		};
 		67FF5E261CF7EFB200AAF03B /* 31可选接口和接口扩展 */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,6 +469,8 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				67DBE22F1CFC16CF003A26A6 /* 49自省 */,
+				67DBE22C1CFC13D8003A26A6 /* 48接口和类方法中的 Self */,
 				67DBE2291CFBEF62003A26A6 /* 47AnyClass，元类型和 .self */,
 				67DBE2261CFBEC1D003A26A6 /* 46获取对象类型 */,
 				67DBE2231CFBE9C3003A26A6 /* 45... 和 ..< */,
@@ -781,6 +803,7 @@
 			files = (
 				67B041391CF7DE830060E3C3 /* InitMarkController.swift in Sources */,
 				67BDDEF61CF6E9C800E6808F /* MutableController.swift in Sources */,
+				67DBE22E1CFC141A003A26A6 /* SelftInterfaceController.swift in Sources */,
 				7752AA0E1CF595AA003B52BA /* SequenceController.swift in Sources */,
 				67FF5E2E1CF7F3D500AAF03B /* WeakController.swift in Sources */,
 				7752AA081CF591F0003B52BA /* ProtocolMutatingController.swift in Sources */,
@@ -811,6 +834,7 @@
 				67B041451CF7E68B0060E3C3 /* ObjcController.swift in Sources */,
 				777C30DF1CF697640022B2DB /* ZiMianController.swift in Sources */,
 				67DBE20D1CFBD51A003A26A6 /* MateController.swift in Sources */,
+				67DBE2311CFC16E4003A26A6 /* IntrospectionController.swift in Sources */,
 				67DBE2071CFBCFBD003A26A6 /* DefaultController.swift in Sources */,
 				67BDDEE71CF6D8CF00E6808F /* AnyController.swift in Sources */,
 				777C30DC1CF68F920022B2DB /* REPL.swift in Sources */,
