@@ -37,7 +37,7 @@ class CastingController: UIViewController {
         for view in self.view.subviews as! [UIView] {
             view.backgroundColor = UIColor.redColor()
         }
-        
+
         // Do any additional setup after loading the view.
     }
 
