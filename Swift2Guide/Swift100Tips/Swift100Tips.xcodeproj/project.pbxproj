@@ -46,6 +46,7 @@
 		67DBE2431CFC26CE003A26A6 /* PrintController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2421CFC26CE003A26A6 /* PrintController.swift */; };
 		67DBE2461CFC288A003A26A6 /* EqualController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2451CFC288A003A26A6 /* EqualController.swift */; };
 		67DBE2491CFC2A12003A26A6 /* HashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2481CFC2A12003A26A6 /* HashController.swift */; };
+		67DBE24C1CFC2D4E003A26A6 /* ErrorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE24B1CFC2D4E003A26A6 /* ErrorController.swift */; };
 		67FF5E281CF7F07F00AAF03B /* OptionalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E271CF7F07F00AAF03B /* OptionalController.swift */; };
 		67FF5E2B1CF7F27400AAF03B /* ElementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2A1CF7F27400AAF03B /* ElementController.swift */; };
 		67FF5E2E1CF7F3D500AAF03B /* WeakController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */; };
@@ -131,6 +132,7 @@
 		67DBE2421CFC26CE003A26A6 /* PrintController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintController.swift; sourceTree = "<group>"; };
 		67DBE2451CFC288A003A26A6 /* EqualController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EqualController.swift; sourceTree = "<group>"; };
 		67DBE2481CFC2A12003A26A6 /* HashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashController.swift; sourceTree = "<group>"; };
+		67DBE24B1CFC2D4E003A26A6 /* ErrorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorController.swift; sourceTree = "<group>"; };
 		67FF5E271CF7F07F00AAF03B /* OptionalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalController.swift; sourceTree = "<group>"; };
 		67FF5E2A1CF7F27400AAF03B /* ElementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementController.swift; sourceTree = "<group>"; };
 		67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakController.swift; sourceTree = "<group>"; };
@@ -502,6 +504,21 @@
 			name = "57哈希";
 			sourceTree = "<group>";
 		};
+		67DBE24A1CFC2D2E003A26A6 /* 58错误和异常处理 */ = {
+			isa = PBXGroup;
+			children = (
+				67DBE24B1CFC2D4E003A26A6 /* ErrorController.swift */,
+			);
+			name = "58错误和异常处理";
+			sourceTree = "<group>";
+		};
+		67DBE24D1CFC37F5003A26A6 /* 59断言 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "59断言";
+			sourceTree = "<group>";
+		};
 		67FF5E261CF7EFB200AAF03B /* 31可选接口和接口扩展 */ = {
 			isa = PBXGroup;
 			children = (
@@ -549,6 +566,8 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				67DBE24D1CFC37F5003A26A6 /* 59断言 */,
+				67DBE24A1CFC2D2E003A26A6 /* 58错误和异常处理 */,
 				67DBE2471CFC29F9003A26A6 /* 57哈希 */,
 				67DBE2441CFC2873003A26A6 /* 56判等 */,
 				67DBE2411CFC26BF003A26A6 /* 55print 和 debugPrint */,
@@ -900,6 +919,7 @@
 				67BDDEF31CF6E88B00E6808F /* MarkController.swift in Sources */,
 				67DBE2341CFC1950003A26A6 /* CastingController.swift in Sources */,
 				7752AA141CF59B0A003B52BA /* AutoclosureController.swift in Sources */,
+				67DBE24C1CFC2D4E003A26A6 /* ErrorController.swift in Sources */,
 				7752A9D21CF588B1003B52BA /* ViewController.swift in Sources */,
 				7752AA111CF5978E003B52BA /* TupleController.swift in Sources */,
 				67B0413C1CF7E0130060E3C3 /* InitNilController.swift in Sources */,
