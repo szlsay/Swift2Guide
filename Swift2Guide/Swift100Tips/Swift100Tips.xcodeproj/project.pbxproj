@@ -29,6 +29,7 @@
 		67DBE2101CFBD90C003A26A6 /* TypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE20F1CFBD90C003A26A6 /* TypeController.swift */; };
 		67DBE2131CFBDB15003A26A6 /* FoundationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2121CFBDB15003A26A6 /* FoundationController.swift */; };
 		67DBE2161CFBDD8C003A26A6 /* StringController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2151CFBDD8C003A26A6 /* StringController.swift */; };
+		67DBE2191CFBE001003A26A6 /* UnsafePointerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DBE2181CFBE000003A26A6 /* UnsafePointerController.swift */; };
 		67FF5E281CF7F07F00AAF03B /* OptionalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E271CF7F07F00AAF03B /* OptionalController.swift */; };
 		67FF5E2B1CF7F27400AAF03B /* ElementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2A1CF7F27400AAF03B /* ElementController.swift */; };
 		67FF5E2E1CF7F3D500AAF03B /* WeakController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */; };
@@ -97,6 +98,7 @@
 		67DBE20F1CFBD90C003A26A6 /* TypeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeController.swift; sourceTree = "<group>"; };
 		67DBE2121CFBDB15003A26A6 /* FoundationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationController.swift; sourceTree = "<group>"; };
 		67DBE2151CFBDD8C003A26A6 /* StringController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringController.swift; sourceTree = "<group>"; };
+		67DBE2181CFBE000003A26A6 /* UnsafePointerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsafePointerController.swift; sourceTree = "<group>"; };
 		67FF5E271CF7F07F00AAF03B /* OptionalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalController.swift; sourceTree = "<group>"; };
 		67FF5E2A1CF7F27400AAF03B /* ElementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementController.swift; sourceTree = "<group>"; };
 		67FF5E2D1CF7F3D500AAF03B /* WeakController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakController.swift; sourceTree = "<group>"; };
@@ -332,6 +334,14 @@
 			name = "40String 还是 NSString";
 			sourceTree = "<group>";
 		};
+		67DBE2171CFBDFF2003A26A6 /* 41UnsafePointer */ = {
+			isa = PBXGroup;
+			children = (
+				67DBE2181CFBE000003A26A6 /* UnsafePointerController.swift */,
+			);
+			name = 41UnsafePointer;
+			sourceTree = "<group>";
+		};
 		67FF5E261CF7EFB200AAF03B /* 31可选接口和接口扩展 */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +389,7 @@
 		7752A9CE1CF588B1003B52BA /* Swift100Tips */ = {
 			isa = PBXGroup;
 			children = (
+				67DBE2171CFBDFF2003A26A6 /* 41UnsafePointer */,
 				67DBE2141CFBDD64003A26A6 /* 40String 还是 NSString */,
 				67DBE2111CFBDAFA003A26A6 /* 39Foundation框架{#foundation-framework} */,
 				67DBE20E1CFBD8D8003A26A6 /* 38值类型和引用类型 */,
@@ -745,6 +756,7 @@
 				67FF5E281CF7F07F00AAF03B /* OptionalController.swift in Sources */,
 				777C30E21CF69DEC0022B2DB /* XiaBiaoController.swift in Sources */,
 				67BDDEF01CF6E22E00E6808F /* ConditionController.swift in Sources */,
+				67DBE2191CFBE001003A26A6 /* UnsafePointerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
